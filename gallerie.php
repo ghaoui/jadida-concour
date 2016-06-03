@@ -49,7 +49,7 @@ require 'mysql.class.php';
 						?>
 						<li>
 							<div class="img-galerie">
-								<a href="files/plat.PNG" data-uk-lightbox="{group:'my-group'}" data-idimage="<?php echo $image['id'];?>" data-nbimage="<?php echo $nb;?>" class="prettyclick" data-nom="<?php echo $image['nom'];?>">
+								<a href="files/<?php echo $image['url'];?>" data-uk-lightbox="{group:'my-group'}" data-idimage="<?php echo $image['id'];?>" data-nbimage="<?php echo $nb;?>" class="prettyclick" data-nom="<?php echo $image['nom'];?>">
 									<div class="crop">
 										<img src="files/<?php echo $image['url'];?>" alt="" class="img-responsive">
 									</div>									
