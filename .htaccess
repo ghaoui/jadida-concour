@@ -1,0 +1,6 @@
+<Files "config.db.ini">
+Order Allow,Deny
+Deny from all
+</Files>
+
+IndexIgnore * 
